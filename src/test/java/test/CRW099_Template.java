@@ -26,8 +26,9 @@ public class CRW099_Template extends commonMethods{
 		signin.nextButton.click();
 	}
 
-	//@AfterTest
+	@AfterTest
 	public void afterTest() {
 		Driver.tearDown();
 	}
+
 }
