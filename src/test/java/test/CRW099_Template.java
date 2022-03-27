@@ -20,11 +20,13 @@ public class CRW099_Template extends commonMethods{
 	@Test
 	public void test() {
 		printMsg("CRW099_Template");
+		comm.acceptCookieBtn.click();
+		comm.signinMenu.click();
 		signin.emailInput.sendKeys(PropertiesReader.getProperty("email"));
 		signin.nextButton.click();
 	}
 
-	@AfterTest
+	//@AfterTest
 	public void afterTest() {
 		Driver.tearDown();
 	}
