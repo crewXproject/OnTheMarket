@@ -1,3 +1,3 @@
 https://www.onthemarket.com/
 
-Create your test case in src/test/java/test
+Create your test case program in src/test/java/test
