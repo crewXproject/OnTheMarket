@@ -25,6 +25,10 @@ public class commonPage {
     @FindBy(xpath="//*[@id=\"otm-main-nav\"]/div[1]/div/div[2]/a/span[2]")
     public WebElement signinMenu;
 
+    @FindBy(xpath="//*[@id=\"cookie-notification\"]/div/div[2]/button")
+    public WebElement acceptCookieBtn;
+
+
 
 
 }
