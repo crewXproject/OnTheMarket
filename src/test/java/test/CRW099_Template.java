@@ -9,8 +9,6 @@ import utilities.ListernersTestNG;
 import utilities.PropertiesReader;
 import utilities.commonMethods;
 
-import java.util.Locale;
-
 @Listeners(ListernersTestNG.class)
 public class CRW099_Template extends commonMethods{
 
