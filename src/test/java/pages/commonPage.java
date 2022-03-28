@@ -5,7 +5,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-
 public class commonPage {
 
     public commonPage() {PageFactory.initElements(Driver.getDriver(),this);}
@@ -27,8 +26,5 @@ public class commonPage {
 
     @FindBy(xpath="//*[@id=\"cookie-notification\"]/div/div[2]/button")
     public WebElement acceptCookieBtn;
-
-
-
 
 }
