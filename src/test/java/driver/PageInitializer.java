@@ -9,6 +9,7 @@ public class PageInitializer extends Driver {
 	public static rentPage rent;
 	public static agentsPage agents;
 	public static signinPage signin;
+	public static newHomesPage newHomes;
 
 	public static void initialize() {
 		comm = new commonPage();
@@ -16,5 +17,6 @@ public class PageInitializer extends Driver {
 		rent = new rentPage();
 		agents = new agentsPage();
 		signin = new signinPage();
+		newHomes = new newHomesPage();
 	}
 }
