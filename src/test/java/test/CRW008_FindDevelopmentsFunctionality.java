@@ -27,7 +27,7 @@ public class CRW008_FindDevelopmentsFunctionality extends commonMethods {
 
 	}
 
-	@Test(enabled = false)
+	@Test(enabled = true)
 	public void CRW008_FindAllDevelopersLogo() {
 
 		// 2.Click "Accept All" to accept all cookies on the pop-up box.

@@ -25,4 +25,5 @@ public class newHomesPage {
 	    @FindBy(xpath="//div[@class='browse-developers']/descendant::a")
 	    public List<WebElement> allDeveloperLogoNames;
 	    
+	    
 }

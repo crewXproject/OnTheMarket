@@ -11,6 +11,7 @@ public class PageInitializer extends Driver {
 	public static signinPage signin;
 	public static newHomesPage newHomes;
 
+	
 	public static void initialize() {
 		comm = new commonPage();
 		buy = new buyPage();
