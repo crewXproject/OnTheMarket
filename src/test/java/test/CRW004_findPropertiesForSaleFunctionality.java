@@ -63,6 +63,7 @@ public class CRW004_findPropertiesForSaleFunctionality extends commonMethods {
 		Assert.assertEquals(expected_Title, actual_Title);
 		
 		
+		
 	}
 
 //	@AfterTest
