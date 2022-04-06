@@ -49,8 +49,6 @@ public class CRW007_FindRetirementPropertiesforSaleFunctionalitys extends common
 		comm.Searchbox2.sendKeys("lm56Jk//@;");
 		comm.Search2.click();
 		
-		
-		
 	}
 	
 	@AfterTest
