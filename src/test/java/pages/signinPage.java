@@ -15,5 +15,13 @@ public class signinPage {
 
     @FindBy(xpath="//*[@id=\"login\"]/button")
     public WebElement nextButton;
+    
+    @FindBy(xpath="/html/body/div[10]/div/div/div/div/div[2]/div[2]/div/div[1]/form/div[1]/div/input")
+    public WebElement passwordInput;
+
+    @FindBy(xpath="/html/body/div[10]/div/div/div/div/div[2]/div[2]/div/div[1]/form/button")
+    public WebElement signinButton;
+    
+    
 
 }
