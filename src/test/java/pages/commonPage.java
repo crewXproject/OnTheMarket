@@ -28,3 +28,6 @@ public class commonPage {
     public WebElement acceptCookieBtn;
 
 }
+
+
+
