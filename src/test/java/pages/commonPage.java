@@ -27,6 +27,29 @@ public class commonPage {
     @FindBy(xpath="//*[@id=\"cookie-notification\"]/div/div[2]/button")
     public WebElement acceptCookieBtn;
 
+    @FindBy(xpath="//*[@id=\"otm-main-nav\"]/div[1]/div/nav/ul/li[2]/div/div/div[1]/ul/li[7]/a/div[2]/span")
+    public WebElement Retirement;
+    
+    @FindBy(xpath="//*[@id=\"headlessui-tabs-panel-4\"]/div[1]/div/input")
+    public WebElement Searchbox;
+
+    @FindBy(xpath="//*[@id=\"headlessui-tabs-panel-4\"]/div[1]/div/button")
+    public WebElement Search;
+    
+    @FindBy(xpath="//*[@id=\"dropdown\"]/ul/li[20]/span")
+    public WebElement Peterborough;
+
+    @FindBy(xpath="//*[@id=\"dropdown\"]/ul/li[20]/div/ul/li/a")
+    public WebElement Link;
+    
+    @FindBy(xpath="//*[@id=\"headlessui-tabs-tab-3\"]")
+    public WebElement Instantvaluation;
+    
+    @FindBy(xpath="//*[@id=\"headlessui-tabs-panel-6\"]/div[1]/div/input")
+    public WebElement Searchbox2;
+    
+    @FindBy(xpath="//*[@id=\"headlessui-tabs-panel-6\"]/div[1]/div/button")
+    public WebElement Search2;   
 }
 
 
