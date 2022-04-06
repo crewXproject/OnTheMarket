@@ -70,7 +70,6 @@ public class CRW008_FindDevelopmentsFunctionality extends commonMethods {
 		int sizeLogoNames = newHomes.allDeveloperLogoNames.size();
 		Assert.assertEquals(sizeLinks, sizeLogoNames);
 
-
 		// 7.All logos should be clickable.
 		int sizeLogos = newHomes.allDeveloperLogoLinks.size();
 		for (WebElement logo : newHomes.allDeveloperLogoLinks) {
