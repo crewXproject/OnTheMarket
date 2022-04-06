@@ -45,12 +45,6 @@ public class CRW006_FindOverseaspropertiesforsalefunctionality {
         buypage.clickThailand();
     }
 
-
-
-
-
-
-
     @AfterTest
     public void afterTest() {
         Driver.tearDown();
