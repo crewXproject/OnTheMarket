@@ -48,11 +48,13 @@ public class CRW007_FindRetirementPropertiesforSaleFunctionalitys extends common
 		comm.Instantvaluation.click();
 		comm.Searchbox2.sendKeys("lm56Jk//@;");
 		comm.Search2.click();
+		
 	}
 	
 	@AfterTest
 	public void afterTest() {
 		Driver.tearDown();
 	}
+	
 	}
 
