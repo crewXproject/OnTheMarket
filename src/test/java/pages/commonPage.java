@@ -51,5 +51,3 @@ public class commonPage {
     @FindBy(xpath="//*[@id=\"headlessui-tabs-panel-6\"]/div[1]/div/button")
     public WebElement Search2;   
 }
-
-
