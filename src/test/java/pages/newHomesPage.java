@@ -19,8 +19,6 @@ public class newHomesPage {
 	    @FindBy(xpath="//span[contains(text(),'Find developments')]")
 	    public WebElement findDevelopments;
 	    
-
-	    
 	    @FindBy(xpath="//div[@class='browse-developers']/a")
 	    public List<WebElement>allDeveloperLogoLinks;
 	    
