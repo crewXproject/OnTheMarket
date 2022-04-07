@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< Updated upstream
 <testng-results ignored="2" total="3" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
@@ -16,6 +17,53 @@
           </reporter-output>
         </test-method> <!-- CRW004_testSearchFunctionality -->
       </class> <!-- test.CRW004_findPropertiesForSaleFunctionality -->
+=======
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-04-06T12:35:48 EDT" name="Default suite" finished-at="2022-04-06T12:36:12 EDT" duration-ms="24812">
+    <groups>
+    </groups>
+    <test started-at="2022-04-06T12:35:48 EDT" name="Default test" finished-at="2022-04-06T12:36:12 EDT" duration-ms="24812">
+      <class name="test.rent">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:test.rent@13cf7d52]" started-at="2022-04-06T12:35:48 EDT" name="launchBrowser" finished-at="2022-04-06T12:35:51 EDT" duration-ms="3175" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="CRW005_PropertyTypeButtonValidation()[pri:0, instance:test.rent@13cf7d52]" started-at="2022-04-06T12:35:51 EDT" name="CRW005_PropertyTypeButtonValidation" finished-at="2022-04-06T12:35:55 EDT" duration-ms="4287" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CRW005_PropertyTypeButtonValidation -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:test.rent@13cf7d52]" started-at="2022-04-06T12:35:55 EDT" name="afterTest" finished-at="2022-04-06T12:35:56 EDT" duration-ms="477" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:test.rent@13cf7d52]" started-at="2022-04-06T12:35:56 EDT" name="launchBrowser" finished-at="2022-04-06T12:35:58 EDT" duration-ms="2916" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="CRW005_RadiusDropDownFunctianlityTest()[pri:0, instance:test.rent@13cf7d52]" started-at="2022-04-06T12:35:58 EDT" name="CRW005_RadiusDropDownFunctianlityTest" finished-at="2022-04-06T12:36:03 EDT" duration-ms="4440" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CRW005_RadiusDropDownFunctianlityTest -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:test.rent@13cf7d52]" started-at="2022-04-06T12:36:03 EDT" name="afterTest" finished-at="2022-04-06T12:36:03 EDT" duration-ms="348" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:test.rent@13cf7d52]" started-at="2022-04-06T12:36:03 EDT" name="launchBrowser" finished-at="2022-04-06T12:36:06 EDT" duration-ms="2553" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="CRW005_SearchRentByLocationFunctionality()[pri:0, instance:test.rent@13cf7d52]" started-at="2022-04-06T12:36:06 EDT" name="CRW005_SearchRentByLocationFunctionality" finished-at="2022-04-06T12:36:08 EDT" duration-ms="2336" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CRW005_SearchRentByLocationFunctionality -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:test.rent@13cf7d52]" started-at="2022-04-06T12:36:08 EDT" name="afterTest" finished-at="2022-04-06T12:36:12 EDT" duration-ms="4256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- test.rent -->
+>>>>>>> Stashed changes
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
