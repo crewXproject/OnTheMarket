@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="test.CRW004_findPropertiesForSaleFunctionality">
+      <class name="test.CRW017_signInFunctionality01">
         <methods>
-          <include name="CRW004_testSearchFunctionality"/>
+          <include name="signinPageWithInvalidPassword"/>
           <include name="openBrowser"/>
         </methods>
-      </class> <!-- test.CRW004_findPropertiesForSaleFunctionality -->
+      </class> <!-- test.CRW017_signInFunctionality01 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

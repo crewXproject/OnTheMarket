@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="2" total="3" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-04-03T17:57:07 EDT" name="Default suite" finished-at="2022-04-03T17:57:15 EDT" duration-ms="8394">
+  <suite started-at="2022-04-05T22:20:15 EDT" name="Default suite" finished-at="2022-04-05T22:20:24 EDT" duration-ms="8763">
     <groups>
     </groups>
-    <test started-at="2022-04-03T17:57:07 EDT" name="Default test" finished-at="2022-04-03T17:57:15 EDT" duration-ms="8394">
-      <class name="test.CRW004_findPropertiesForSaleFunctionality">
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:test.CRW004_findPropertiesForSaleFunctionality@5b67bb7e]" started-at="2022-04-03T17:57:07 EDT" name="openBrowser" finished-at="2022-04-03T17:57:12 EDT" duration-ms="5397" status="PASS">
+    <test started-at="2022-04-05T22:20:15 EDT" name="Default test" finished-at="2022-04-05T22:20:24 EDT" duration-ms="8763">
+      <class name="test.CRW017_signInFunctionality01">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:test.CRW017_signInFunctionality01@478ee483]" started-at="2022-04-05T22:20:15 EDT" name="openBrowser" finished-at="2022-04-05T22:20:21 EDT" duration-ms="5905" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method signature="CRW004_testSearchFunctionality()[pri:0, instance:test.CRW004_findPropertiesForSaleFunctionality@5b67bb7e]" started-at="2022-04-03T17:57:12 EDT" name="CRW004_testSearchFunctionality" finished-at="2022-04-03T17:57:15 EDT" duration-ms="2903" status="PASS">
+        <test-method signature="signinPage()[pri:0, instance:test.CRW017_signInFunctionality01@478ee483]" started-at="2022-04-05T22:20:21 EDT" name="signinPage" finished-at="2022-04-05T22:20:24 EDT" duration-ms="2807" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- CRW004_testSearchFunctionality -->
-      </class> <!-- test.CRW004_findPropertiesForSaleFunctionality -->
+        </test-method> <!-- signinPage -->
+      </class> <!-- test.CRW017_signInFunctionality01 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
