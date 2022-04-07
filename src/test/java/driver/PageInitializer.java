@@ -18,10 +18,7 @@ public class PageInitializer extends Driver {
 		rent = new rentPage();
 		agents = new agentsPage();
 		signin = new signinPage();
-<<<<<<< Updated upstream
 		newHomes = new newHomesPage();
-=======
 		rentButton=new rentPage();
->>>>>>> Stashed changes
 	}
 }
