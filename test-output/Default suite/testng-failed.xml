@@ -1,14 +1,15 @@
+
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="test.CRW017_signInFunctionality01">
+
+      <class name="test.rent">
         <methods>
-          <include name="signinPageWithInvalidPassword"/>
-          <include name="openBrowser"/>
+          <include name="CRW005_PropertyTypeButtonValidation"/>
+          <include name="launchBrowser"/>
+          <include name="afterTest"/>
         </methods>
-      </class> <!-- test.CRW017_signInFunctionality01 -->
-    </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+      </class> <!-- test.rent -->
+

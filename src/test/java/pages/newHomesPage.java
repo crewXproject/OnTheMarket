@@ -19,12 +19,15 @@ public class newHomesPage {
 	    @FindBy(xpath="//span[contains(text(),'Find developments')]")
 	    public WebElement findDevelopments;
 	    
-
-	    
 	    @FindBy(xpath="//div[@class='browse-developers']/a")
 	    public List<WebElement>allDeveloperLogoLinks;
 	    
 	    @FindBy(xpath="//div[@class='browse-developers']/descendant::a")
 	    public List<WebElement> allDeveloperLogoNames;
 	    
+	    @FindBy(xpath="//input[@class='landing-search-input landing-search-input--with-btn']")
+	    public WebElement searchBar;
+	    
+	    @FindBy(xpath="//button[starts-with(@class,'otm-Button')]")
+	    public WebElement searchBarButton;
 }
