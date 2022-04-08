@@ -78,7 +78,7 @@
 				<configuration>
 
 					<suiteXmlFiles>
-						<suiteXmlFile>testing.xml</suiteXmlFile>
+						<suiteXmlFile>smoke.xml</suiteXmlFile>
 					</suiteXmlFiles>
 					<!-- <excludes>
 						<exclude>**/excelTest.java</exclude>
