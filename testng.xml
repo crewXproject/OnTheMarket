@@ -2,11 +2,12 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
     <test verbose="2" preserve-order="true"
-          name="/Users/weerawich/java-workspace/CrewX/src/test/java/test/CRW099_Template.java">
+          name="/Users/weerawich/java-workspace/OnTheMarket/src/test/java/test/CRW017_signInFunctionality.java">
         <classes>
-            <class name="test.CRW099_Template">
+            <class name="test.CRW017_signInFunctionality">
                 <methods>
-                    <include name="test"/>
+                    <include name="signinPage"/>
+                    <include name="signinPageWithInvalidPassword"/>
                 </methods>
             </class>
         </classes>
