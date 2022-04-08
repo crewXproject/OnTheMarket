@@ -78,13 +78,13 @@
 				<configuration>
 
 					<suiteXmlFiles>
-						<suiteXmlFile>parameterTesting.xml</suiteXmlFile>
+						<suiteXmlFile>testing.xml</suiteXmlFile>
 					</suiteXmlFiles>
 					<!-- <excludes>
 						<exclude>**/excelTest.java</exclude>
 						<exclude>**/writeExcel.java</exclude>
 					</excludes> -->
-					<!-- <includes> <include>loginTest.java</include> <include>openBrowser.java</include> 
+					<!--<<includes> <include>loginTest.java</include> <include>openBrowser.java</include> 
 						<include>TestingAnnotations.java</include> </includes> -->
 					<!-- <suiteXmlFiles> <suiteXmlFile>${testngFile}</suiteXmlFile> </suiteXmlFiles> -->
 				</configuration>
