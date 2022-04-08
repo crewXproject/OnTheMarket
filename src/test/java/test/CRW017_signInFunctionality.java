@@ -22,7 +22,7 @@ public class CRW017_signInFunctionality extends commonMethods {
 
 	}
 
-	@Test
+	@Test (groups= {"Smoke"})
 
 	public void signinPage() {
 
