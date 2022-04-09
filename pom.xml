@@ -79,7 +79,7 @@
 
 					<suiteXmlFiles>
                        	 			<!--suiteXmlFile>${xmlSuiteFileName}</suiteXmlFile-->
-                        			<suiteXmlFile>smoke.xml</suiteXmlFile>
+                        			<suiteXmlFile>testng.xml</suiteXmlFile>
 					</suiteXmlFiles>
 					<!-- <excludes>
 						<exclude>**/excelTest.java</exclude>
