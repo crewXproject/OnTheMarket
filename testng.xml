@@ -1,13 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
-    <test verbose="2" preserve-order="true"
-          name="CRW017_signInFunctionality.java">
+    <test verbose="2" preserve-order="true" name="/Users/weerawich/java-workspace/OnTheMarket/src/test/java/test">
         <classes>
+            <class name="test.CRW004_findPropertiesForSaleFunctionality">
+                <methods>
+                    <include name="CRW004_testBuyTab"/>
+                    <include name="CRW004_testPropertyForSale"/>
+                    <include name="CRW004_testSearchFunctionality"/>
+                </methods>
+            </class>
+            <class name="test.CRW005_SearchForRent">
+                <methods>
+                    <include name="CRW005_SearchRentByLocationFunctionality"/>
+                    <include name="CRW005_RadiusDropDownFunctianlityTest"/>
+                    <include name="CRW005_PropertyTypeButtonValidation"/>
+                </methods>
+            </class>
+            <class name="test.CRW006_FindOverseaspropertiesforsalefunctionality">
+                <methods>
+                    <include name="clickOverseasForSale"/>
+                    <include name="clickCanaryIslands"/>
+                    <include name="clickThailand"/>
+                </methods>
+            </class>
+            <class name="test.CRW007_FindRetirementPropertiesforSaleFunctionalitys">
+                <methods>
+                    <include name="CRW007_Validnput"/>
+                    <include name="CRW007_ValidatingCitylink"/>
+                    <include name="CRW007_Invalidnput"/>
+                </methods>
+            </class>
+            <class name="test.CRW008_FindDevelopmentsFunctionality">
+                <methods>
+                    <include name="CRW008_FindAllDevelopersLogo"/>
+                    <include name="CRW008_FindAllDevelopersLogoClickable"/>
+                    <include name="CRW008_VerifyFieldboxIsWorking"/>
+                </methods>
+            </class>
             <class name="test.CRW017_signInFunctionality">
                 <methods>
                     <include name="signinPage"/>
                     <include name="signinPageWithInvalidPassword"/>
+                </methods>
+            </class>
+            <class name="test.CRW099_Template">
+                <methods>
+                    <include name="test"/>
                 </methods>
             </class>
         </classes>
