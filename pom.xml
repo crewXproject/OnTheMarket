@@ -78,8 +78,8 @@
 				<configuration>
 
 					<suiteXmlFiles>
-                       	 			<!--suiteXmlFile>${xmlSuiteFileName}</suiteXmlFile-->
-                        			<suiteXmlFile>testng.xml</suiteXmlFile>
+                       	 			<suiteXmlFile>${xmlSuiteFileName}</suiteXmlFile>
+                        			<!--suiteXmlFile>testng.xml</suiteXmlFile-->
 					</suiteXmlFiles>
 					<!-- <excludes>
 						<exclude>**/excelTest.java</exclude>
