@@ -49,7 +49,7 @@ public class CRW007_FindRetirementPropertiesforSaleFunctionalitys extends common
 		Assert.assertEquals(expected_Title, actual_Title);
 	}
 
-	
+
 	@Test
 	public void CRW007_Invalidnput() {
 		printMsg("CRW007_FindRetirementPropertiesforSaleFunctionalitys");

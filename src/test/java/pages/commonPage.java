@@ -34,7 +34,7 @@ public class commonPage {
     public WebElement Searchbox; 
 
     @FindBy(xpath="//*[@id=\"headlessui-tabs-panel-4\"]/div[1]/div/div/button")
-    public WebElement Search;
+    public WebElement Search; 
     
     @FindBy(xpath="//*[@id=\"dropdown\"]/ul/li[20]/span")
     public WebElement Peterborough;
