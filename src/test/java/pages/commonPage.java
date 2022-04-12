@@ -30,10 +30,10 @@ public class commonPage {
     @FindBy(xpath="//*[@id=\"otm-main-nav\"]/div[1]/div/nav/ul/li[2]/div/div/div[1]/ul/li[7]/a/div[2]/span")
     public WebElement Retirement;
     
-    @FindBy(xpath="//*[@id=\"headlessui-tabs-panel-4\"]/div[1]/div/input")
-    public WebElement Searchbox;
+    @FindBy(xpath="//*[@id=\"headlessui-tabs-panel-4\"]/div[1]/div/div/input")
+    public WebElement Searchbox; 
 
-    @FindBy(xpath="//*[@id=\"headlessui-tabs-panel-4\"]/div[1]/div/button")
+    @FindBy(xpath="//*[@id=\"headlessui-tabs-panel-4\"]/div[1]/div/div/button")
     public WebElement Search;
     
     @FindBy(xpath="//*[@id=\"dropdown\"]/ul/li[20]/span")
@@ -42,10 +42,10 @@ public class commonPage {
     @FindBy(xpath="//*[@id=\"dropdown\"]/ul/li[20]/div/ul/li/a")
     public WebElement Link;
     
-    @FindBy(xpath="//*[@id=\"headlessui-tabs-tab-3\"]")
+    @FindBy(xpath="//*[@id=\"headlessui-tabs-tab-3\"]/span")
     public WebElement Instantvaluation;
     
-    @FindBy(xpath="//*[@id=\"headlessui-tabs-panel-6\"]/div[1]/div/input")
+    @FindBy(xpath="//*[@id=\"headlessui-tabs-panel-6\"]/div[1]/div/div[1]/input")
     public WebElement Searchbox2;
     
     @FindBy(xpath="//*[@id=\"headlessui-tabs-panel-6\"]/div[1]/div/button")

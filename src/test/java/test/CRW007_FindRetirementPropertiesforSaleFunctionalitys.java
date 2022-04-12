@@ -1,8 +1,10 @@
 package test;
 
 import org.openqa.selenium.JavascriptExecutor;
+import org.testng.Assert;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeTest;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
@@ -12,12 +14,12 @@ import utilities.commonMethods;
 @Listeners(ListernersTestNG.class)
 public class CRW007_FindRetirementPropertiesforSaleFunctionalitys extends commonMethods{
 		
-	@BeforeTest
+	@BeforeMethod 
 	public void launchBrowser() {
 		Driver.getDriver();
 	}
 	@Test
-	public void CRW007_Validnput() {
+	public void CRW007_ValidInput() {
 		printMsg("CRW007_FindRetirementPropertiesforSaleFunctionalitys");
 		comm.acceptCookieBtn.click();
 		comm.buyMenu.click();
@@ -25,8 +27,12 @@ public class CRW007_FindRetirementPropertiesforSaleFunctionalitys extends common
 		comm.Searchbox.click();
 		comm.Searchbox.sendKeys("Liverpool");
 		comm.Search.click();
+		String expected_Title = "Search Retirement Properties For Sale In Liverpool | OnTheMarket";
+		String actual_Title = driver.getTitle();
+
+		Assert.assertEquals(expected_Title, actual_Title);
 	}
-	
+
 	@Test
 	public void CRW007_ValidatingCitylink(){
 		printMsg("CRW007_FindRetirementPropertiesforSaleFunctionalitys");
@@ -37,7 +43,12 @@ public class CRW007_FindRetirementPropertiesforSaleFunctionalitys extends common
         js.executeScript("window.scrollBy(0,2300)");
 		comm.Peterborough.click();
 		comm.Link.click();
+		String expected_Title = "Search Retirement Properties For Sale In Peterborough | OnTheMarket";
+		String actual_Title = driver.getTitle();
+
+		Assert.assertEquals(expected_Title, actual_Title);
 	}
+
 	
 	@Test
 	public void CRW007_Invalidnput() {
@@ -51,7 +62,7 @@ public class CRW007_FindRetirementPropertiesforSaleFunctionalitys extends common
 		
 	}
 	
-	@AfterTest
+	@AfterMethod
 	public void afterTest() {
 		Driver.tearDown();
 	}
