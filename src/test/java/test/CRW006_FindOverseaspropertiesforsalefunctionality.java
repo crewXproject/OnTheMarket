@@ -16,20 +16,17 @@ public class CRW006_FindOverseaspropertiesforsalefunctionality extends commonMet
 
     @Test
     public void clickOverseasForSale(){
-        buyPage buypage = new buyPage();
-        buypage.clickOverseasForSale();
+        buy.clickOverseasForSale();
     }
 
     @Test
     public void clickCanaryIslands() {
-        buyPage buypage = new buyPage();
-        buypage.clickCanaryIslands();
+        buy.clickCanaryIslands();
     }
 
     @Test
     public void clickThailand() {
-        buyPage buypage = new buyPage();
-        buypage.clickThailand();
+        buy.clickThailand();
     }
 
     @AfterMethod
