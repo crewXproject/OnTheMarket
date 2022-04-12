@@ -11,6 +11,7 @@ public class PageInitializer extends Driver {
 	public static agentsPage agents;
 	public static signinPage signin;
 	public static newHomesPage newHomes;
+	public static retirementProperties retireHome;
 
 	public static void initialize() {
 		comm = new commonPage();
@@ -20,5 +21,6 @@ public class PageInitializer extends Driver {
 		signin = new signinPage();
 		newHomes = new newHomesPage();
 		rentButton=new rentPage();
+		retireHome = new retirementProperties();
 	}
 }
